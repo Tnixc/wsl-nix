@@ -11,5 +11,9 @@
     ./modules/packages.nix
     ./modules/git.nix
   ];
+  #   home.file.".config/nvim" = {
+  #   source = ./modules/nvim;
+  #   recursive = true; # Ensures that the entire directory is linked/copied
+  # };
 }
 
