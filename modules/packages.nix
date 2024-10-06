@@ -12,6 +12,7 @@
     cargo
     zig
     gcc
+    bat
   ];
 }
 
