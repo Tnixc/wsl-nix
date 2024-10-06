@@ -12,7 +12,7 @@
     ./modules/git.nix
   ];
     home.file.".config/nvim" = {
-    source = ./modules/nvim;
+    source = ./modules/nix-config/home/programs/nvim/src;
     recursive = true; # Ensures that the entire directory is linked/copied
   };
 }

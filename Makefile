@@ -1,3 +1,3 @@
 
 run:
-	home-manager switch --flake .#tnixc --impure
+	home-manager switch --flake .?submodules=1#tnixc
