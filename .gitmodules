@@ -1,0 +1,3 @@
+[submodule "modules/nix-config"]
+	path = modules/nix-config
+	url = https://github.com/tnixc/nix-config
