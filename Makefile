@@ -1,3 +1,3 @@
 
 run:
-	home-manager switch --flake .#tnixc
+	home-manager switch --flake .#tnixc --impure
