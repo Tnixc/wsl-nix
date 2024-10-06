@@ -9,6 +9,9 @@
     gh
     gnumake
     btop
+    cargo
+    zig
+    gcc
   ];
 }
 

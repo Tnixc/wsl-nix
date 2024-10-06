@@ -48,6 +48,6 @@
 
     cd = "z";
 
-    swd = "cd ~/nix-config ; make ; cd - >> /dev/null";
+    swd = "cd ~/wsl-nix ; make ; cd - >> /dev/null";
   };
 }
