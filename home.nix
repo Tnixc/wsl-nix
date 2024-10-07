@@ -8,7 +8,7 @@
   imports = [
     ./modules/zsh.nix
     ./modules/packages.nix
-    ./modules/git.nix
+    ./modules/nix-config/home/programs/git.nix
     ./modules/nix-config/home/programs/starship.nix
   ];
     home.file.".config/nvim" = {

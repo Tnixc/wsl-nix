@@ -14,6 +14,8 @@
         }
 
         export EDITOR=nvim
+        export LLVM_PROFILE_FILE="/dev/null"
+
 
         export FZF_DEFAULT_OPTS="
         --color=fg:7,hl:4
