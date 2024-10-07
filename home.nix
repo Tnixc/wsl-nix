@@ -7,9 +7,9 @@
 
   imports = [
     ./modules/zsh.nix
-    ./modules/starship.nix
     ./modules/packages.nix
     ./modules/git.nix
+    ./modules/nix-config/home/programs/starship.nix
   ];
     home.file.".config/nvim" = {
     source = ./modules/nix-config/home/programs/nvim/src;
