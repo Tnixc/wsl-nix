@@ -13,6 +13,8 @@
     zig
     gcc
     bat
+    ripgrep
+    fzf
   ];
 }
 
