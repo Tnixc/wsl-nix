@@ -10,6 +10,8 @@
     ./modules/packages.nix
     ./modules/nix-config/home/programs/git.nix
     ./modules/nix-config/home/programs/starship.nix
+    ./modules/nix-config/home/programs/lazygit.nix
+    ./modules/nix-config/home/programs/bat/bat.nix
   ];
     home.file.".config/nvim" = {
     source = ./modules/nix-config/home/programs/nvim/src;
