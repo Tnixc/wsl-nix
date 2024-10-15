@@ -13,6 +13,7 @@
     zig
     gcc
     bat
+    delta
     ripgrep
     fzf
   ];
