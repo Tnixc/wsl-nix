@@ -14,7 +14,7 @@
     ./modules/nix-config/home/programs/bat/bat.nix
   ];
     home.file.".config/nvim" = {
-    source = ./modules/nix-config/home/programs/nvim/src;
+    source = ./modules/nix-config/home/programs/nvim/nvim;
     recursive = true; # Ensures that the entire directory is linked/copied
   };
 }
